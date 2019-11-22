@@ -2968,20 +2968,4 @@ let movies = [
     }
   ]
 
-  function orderByYear(array) {
-    array.sort((a, b)=>{
-     return a.year - b.year
-    })
-    }
-    orderByYear(movies)
-    console.log(movies)
-
-    function howManyMovies (array){
-
-      let steveMovies = array.filter((eachMovie)=>{
-        return eachMovie.director ==  "Steven Spielberg"  && eachMovie.genre.includes('Drama');
-      })
-      return steveMovies
-      }
-      howManyMovies(movies)
-      
+  
